@@ -1,0 +1,9 @@
+	nb_contigs	nb_bases	mean_lens	median_lens	max_lens
+/home/moritzbuck/uppmax/MG_course/2017_MG_course/common/megahit/single_assemblies/feces_004/feces_004.fasta	159893	172431493	1078.4180233030838	478.0	259325
+/home/moritzbuck/uppmax/MG_course/2017_MG_course/common/megahit/single_assemblies/feces_004/feces_subset_004.fasta	2416	3518060	1456.1506622516556	875.5	17430
+/home/moritzbuck/uppmax/MG_course/2017_MG_course/common/megahit/single_assemblies/feces_004/final.contigs.fa	132921	213276787	1604.537936067288	531.0	627570
+/home/moritzbuck/uppmax/MG_course/2017_MG_course/common/megahit/single_assemblies/feces_004/final.contigs.feces_004.fa	132959	213292544	1604.197865507412	531.0	627570
+/home/moritzbuck/uppmax/MG_course/2017_MG_course/common/megahit/single_assemblies/feces_006/faces_006_1.fa	56529	51657780	913.8279467176139	509.0	103205
+/home/moritzbuck/uppmax/MG_course/2017_MG_course/common/megahit/single_assemblies/feces_006/feces_006.fa	56530	51655110	913.7645497965682	508.5	103205
+/home/moritzbuck/uppmax/MG_course/2017_MG_course/common/megahit/single_assemblies/nasal_004/nasal_004.fasta	239214	103366770	432.1100353658231	385.0	16709
+/home/moritzbuck/uppmax/MG_course/2017_MG_course/common/megahit/single_assemblies/nasal_005/nasal_005.fasta	27696	12778856	461.39716926632	368.0	16709

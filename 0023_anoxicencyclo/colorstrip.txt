@@ -1,0 +1,1371 @@
+DATASET_GRADIENT
+#In gradient datasets, each ID is associated to a single numeric value which is converted to a colored box based on the gradient defined.
+
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throught this file (except in the SEPARATOR line, which uses space).
+#SEPARATOR TAB
+#SEPARATOR SPACE
+SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL small/brine
+
+#dataset color (can be changed later)
+COLOR #ff0000
+
+#=================================================================#
+#                    OPTIONAL SETTINGS                            #
+#=================================================================#
+
+#each dataset can have a legend, which is defined below
+#for each row in the legend, there should be one shape, color and label
+#shape should be a number between 1 and 6:
+#1: square
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+#6: checkmark
+
+#LEGEND_TITLE Dataset_legend
+#LEGEND_SHAPES 1 2 3
+#LEGEND_COLORS #ff0000 #00ff00 #0000ff
+#LEGEND_LABELS value1 value2 value3
+
+#=================================================================#
+#     all other optional settings can be set or changed later     #
+#           in the web interface (under 'Datasets' tab)           #
+#=================================================================#
+
+#width of the gradient strip
+#STRIP_WIDTH 25
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
+#MARGIN 0
+
+#border width; if set above 0, a border of specified width (in pixels) will be drawn around the gradient strip
+#BORDER_WIDTH 0
+
+#border color; used whern BORDER_WIDTH is above 0
+#BORDER_COLOR #0000ff
+
+#define the gradient colors. Values in the dataset will be mapped onto the corresponding color gradient.
+#COLOR_MIN #ff0000
+#COLOR_MAX #0000ff
+
+#you can specify a gradient with three colors (e.g red to yellow to green) by setting 'USE_MID_COLOR' to 1, and specifying the midpoint color
+#USE_MID_COLOR 1
+#COLOR_MID #ffff00
+
+#always show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+#SHOW_INTERNAL 1
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+single megahit big fraction 1389,-1.30515117160173
+single megahit big fraction 139,-6.83148930278626
+single megahit big fraction 1549,-4.53153509997705
+single megahit big fraction 1614,2.15917865093097
+single megahit big fraction 1637,-1.91608862228045
+single megahit big fraction 1692,-0.043183147880197
+single megahit big fraction 1840,-6.07733950091887
+single megahit big fraction 1901,0.713763003729233
+single megahit big fraction 1921,3.6847760076433
+single megahit big fraction 1922,-0.676154612268929
+single megahit big fraction 1928,-2.34181676271877
+single megahit big fraction 2009,-4.26103043431057
+single megahit big fraction 2022,-0.985709144504803
+single megahit big fraction 213,2.59652701786605
+single megahit big fraction 2158,-4.33329048729696
+single megahit big fraction 2169,0.18840667121913
+single megahit big fraction 2185,3.29247219210147
+single megahit big fraction 2236,2.87009192645935
+single megahit big fraction 2241,-4.6154966241239
+single megahit big fraction 2260,1.06674726341504
+single megahit big fraction 2276,7.95175611096579
+single megahit big fraction 2298,-9.11123734168757
+single megahit big fraction 2334,-0.825370984440708
+single megahit big fraction 2342,1.33658289960222
+single megahit big fraction 2349,-2.67100926620711
+single megahit big fraction 2375,-5.30023405935679
+single megahit big fraction 2431,-4.3803880615625
+single megahit big fraction 2516,1.70652928871774
+single megahit big fraction 2578,-0.394704373577833
+single megahit big fraction 2611,0.911014769606748
+single megahit big fraction 3236,-4.84061277724354
+single megahit big fraction 3257,-2.30855006559376
+single megahit big fraction 3710,0.776225377674912
+single megahit big fraction 3728,-4.89505317156423
+single megahit big fraction 4036,-7.74302451685309
+single megahit big fraction 4072,-0.958648322533415
+single megahit big fraction 4483,1.80913844067833
+single megahit big fraction 4609,-2.91904548308224
+single megahit big fraction 469,1.91885181773879
+single megahit big fraction 728,2.43362877570766
+single megahit big fraction 805,-4.4774696555115
+single megahit big fraction 996,-3.60194082323329
+single megahit FullCoassembly 1074,2.33318865369307
+single megahit FullCoassembly 1080,-2.08553162752727
+single megahit FullCoassembly 1085,0.373425826060805
+single megahit FullCoassembly 111,-0.120292462043056
+single megahit FullCoassembly 144,-1.45224290940946
+single megahit FullCoassembly 1573,-8.0122074566719
+single megahit FullCoassembly 1659,-1.67877553913585
+single megahit FullCoassembly 1807,1.90923327040684
+single megahit FullCoassembly 183,-5.96871781750718
+single megahit FullCoassembly 2297,-0.755508906586078
+single megahit FullCoassembly 2449,0.708254956456204
+single megahit FullCoassembly 2473,-1.95896171884079
+single megahit FullCoassembly 258,-3.27639109026088
+single megahit FullCoassembly 2629,-5.68254138486413
+single megahit FullCoassembly 2638,-6.05575036626806
+single megahit FullCoassembly 267,-3.573004487315
+single megahit FullCoassembly 3105,-4.55989147040761
+single megahit FullCoassembly 3215,0.0786309848319004
+single megahit FullCoassembly 329,-7.36304639944165
+single megahit FullCoassembly 3301,-6.55610803404003
+single megahit FullCoassembly 3309,-2.90399986840839
+single megahit FullCoassembly 3389,-4.61330908607737
+single megahit FullCoassembly 3481,-5.56015251957333
+single megahit FullCoassembly 3490,-5.36285015919096
+single megahit FullCoassembly 3516,-4.23047813603626
+single megahit FullCoassembly 3554,1.3272387215646
+single megahit FullCoassembly 3678,1.06914468464987
+single megahit FullCoassembly 3686,-4.52542379587315
+single megahit FullCoassembly 3716,-9.35364291277491
+single megahit FullCoassembly 3724,-2.77013140570632
+single megahit FullCoassembly 3748,0.431519345349758
+single megahit FullCoassembly 3818,-4.55928943420356
+single megahit FullCoassembly 3826,0.616241049769044
+single megahit FullCoassembly 3907,-6.10357427933529
+single megahit FullCoassembly 3921,2.96921255243669
+single megahit FullCoassembly 4006,-2.06618037059065
+single megahit FullCoassembly 4018,-2.96025376606861
+single megahit FullCoassembly 4046,-7.87787494514718
+single megahit FullCoassembly 4049,-4.89853362145944
+single megahit FullCoassembly 4225,-7.8879329575521
+single megahit FullCoassembly 4315,-4.64983706440264
+single megahit FullCoassembly 4332,-3.30158014586897
+single megahit FullCoassembly 4418,0.351312730567249
+single megahit FullCoassembly 448,-6.18026890242166
+single megahit FullCoassembly 4519,-7.25707348718349
+single megahit FullCoassembly 4527,0.572704700389544
+single megahit FullCoassembly 4553,-3.39902988425641
+single megahit FullCoassembly 4572,-7.03063855002756
+single megahit FullCoassembly 4578,2.94591887628201
+single megahit FullCoassembly 4598,3.86283430349839
+single megahit FullCoassembly 4609,-3.85089578905726
+single megahit FullCoassembly 4702,-1.59871204626957
+single megahit FullCoassembly 4707,0.285427113839801
+single megahit FullCoassembly 4721,-3.34418897135472
+single megahit FullCoassembly 4765,-4.99037935893555
+single megahit FullCoassembly 4766,-1.07625101751373
+single megahit FullCoassembly 4800,-3.95302071160543
+single megahit FullCoassembly 4814,-0.289778204819419
+single megahit FullCoassembly 4837,-6.55301080367999
+single megahit FullCoassembly 4846,0.549058042418942
+single megahit FullCoassembly 5094,-3.23539271087692
+single megahit FullCoassembly 5096,-2.77466022841787
+single megahit FullCoassembly 5109,-4.34789761843253
+single megahit FullCoassembly 5135,-5.62081179636959
+single megahit FullCoassembly 5155,-4.05603698026358
+single megahit FullCoassembly 5313,0.324279619741095
+single megahit FullCoassembly 5369,-3.99037925586742
+single megahit FullCoassembly 543,-6.56127634432132
+single megahit FullCoassembly 5449,-6.45278036472587
+single megahit FullCoassembly 5502,-4.19235684904784
+single megahit FullCoassembly 5539,-9.60438690000186
+single megahit FullCoassembly 5576,-0.413422558466413
+single megahit FullCoassembly 5604,0.402560344664892
+single megahit FullCoassembly 5626,-0.0180746385371077
+single megahit FullCoassembly 5754,-7.37423474963167
+single megahit FullCoassembly 575,-4.00317943130002
+single megahit FullCoassembly 6126,-3.17016301345397
+single megahit FullCoassembly 6217,-3.19569072496259
+single megahit FullCoassembly 6253,-3.68854849109531
+single megahit FullCoassembly 6317,-1.79120424042665
+single megahit FullCoassembly 6537,-0.475251238668939
+single megahit FullCoassembly 6662,2.36964371706929
+single megahit FullCoassembly 6800,-1.83381295306303
+single megahit FullCoassembly 7548,-3.77507247884008
+single megahit FullCoassembly 7637,-6.91997622339878
+single megahit FullCoassembly 7797,1.79398001556562
+single megahit FullCoassembly 7800,-3.51173835435778
+single megahit FullCoassembly 7917,-5.53950326941236
+single megahit FullCoassembly 7938,-4.78881610979103
+single megahit FullCoassembly 79,-1.33243799189034
+single megahit FullCoassembly 8165,-1.88505243660064
+single megahit FullCoassembly 8263,2.44926255677182
+single megahit FullCoassembly 8292,-2.81993118676471
+single megahit FullCoassembly 8523,-3.31814241459914
+single megahit FullCoassembly 8714,-2.10026898287644
+single megahit FullCoassembly 8748,1.09305567729634
+single megahit FullCoassembly 8767,-4.34280372523549
+single megahit FullCoassembly 8861,-4.60780313851437
+single megahit FullCoassembly 8876,-7.12954341806691
+single megahit FullCoassembly 8907,-1.93655722096394
+single megahit FullCoassembly 9069,-6.16406663355099
+single megahit FullCoassembly 9123,-4.0896170890633
+single megahit FullCoassembly 9155,-3.92378075657812
+single megahit FullCoassemblyNo3 1138,-6.47099633729874
+single megahit FullCoassemblyNo3 1218,-2.77652048387833
+single megahit FullCoassemblyNo3 1262,-3.94137134552342
+single megahit FullCoassemblyNo3 1413,-3.78825445836998
+single megahit FullCoassemblyNo3 1425,-5.93862715527589
+single megahit FullCoassemblyNo3 1444,-10.2655575890947
+single megahit FullCoassemblyNo3 1529,-3.99500548320826
+single megahit FullCoassemblyNo3 1553,-2.40611846232312
+single megahit FullCoassemblyNo3 1630,-4.27811292420285
+single megahit FullCoassemblyNo3 1661,-6.17771461254506
+single megahit FullCoassemblyNo3 1761,-6.2844323350004
+single megahit FullCoassemblyNo3 1862,-5.56162181053745
+single megahit FullCoassemblyNo3 1930,-1.49677786550388
+single megahit FullCoassemblyNo3 1970,-5.81838034206124
+single megahit FullCoassemblyNo3 2000,-5.07877468453624
+single megahit FullCoassemblyNo3 2056,-8.46013637446697
+single megahit FullCoassemblyNo3 2091,-9.0614657674447
+single megahit FullCoassemblyNo3 2107,-4.05883747415692
+single megahit FullCoassemblyNo3 2126,-3.30993400815515
+single megahit FullCoassemblyNo3 2129,-5.55250546239843
+single megahit FullCoassemblyNo3 2162,-5.60838214849442
+single megahit FullCoassemblyNo3 2182,-6.46444382336208
+single megahit FullCoassemblyNo3 2183,-4.20662727531979
+single megahit FullCoassemblyNo3 2199,-3.65943950436363
+single megahit FullCoassemblyNo3 2214,-2.76994964424904
+single megahit FullCoassemblyNo3 2224,-5.84314305798604
+single megahit FullCoassemblyNo3 2268,-5.65573002799908
+single megahit FullCoassemblyNo3 2294,-0.788397741859216
+single megahit FullCoassemblyNo3 2301,-5.52397300108011
+single megahit FullCoassemblyNo3 2308,0.209283425262284
+single megahit FullCoassemblyNo3 2343,-0.800084133740432
+single megahit FullCoassemblyNo3 2350,-2.50101167533373
+single megahit FullCoassemblyNo3 2359,-6.44092172030965
+single megahit FullCoassemblyNo3 2388,-6.4765959079396
+single megahit FullCoassemblyNo3 2395,-4.24541622456175
+single megahit FullCoassemblyNo3 2396,-5.64021245432502
+single megahit FullCoassemblyNo3 2411,-5.62118304801712
+single megahit FullCoassemblyNo3 2420,-4.03950704027344
+single megahit FullCoassemblyNo3 2505,-7.88355836428288
+single megahit FullCoassemblyNo3 2522,-0.987618192200306
+single megahit FullCoassemblyNo3 2533,-4.97053319517299
+single megahit FullCoassemblyNo3 2536,0.125680650839214
+single megahit FullCoassemblyNo3 2571,-5.18793472740919
+single megahit FullCoassemblyNo3 2646,-6.66121542877127
+single megahit FullCoassemblyNo3 2690,-4.41655345303085
+single megahit FullCoassemblyNo3 2693,-6.43706165733888
+single megahit FullCoassemblyNo3 2702,-5.59842388950372
+single megahit FullCoassemblyNo3 2772,-6.52366581225092
+single megahit FullCoassemblyNo3 2792,-10.4561660245075
+single megahit FullCoassemblyNo3 2795,0.0957726048219028
+single megahit FullCoassemblyNo3 2803,-5.19434931671362
+single megahit FullCoassemblyNo3 2846,-8.09727405503458
+single megahit FullCoassemblyNo3 2897,-3.25804538970948
+single megahit FullCoassemblyNo3 2930,-2.69616232007259
+single megahit FullCoassemblyNo3 2982,-1.95302232620811
+single megahit FullCoassemblyNo3 2983,-2.037810298068
+single megahit FullCoassemblyNo3 2986,-10.0888856304148
+single megahit FullCoassemblyNo3 2999,-1.38036093221166
+single megahit FullCoassemblyNo3 3016,-6.05076602625977
+single megahit FullCoassemblyNo3 3019,2.76724042330212
+single megahit FullCoassemblyNo3 3064,-3.4598151139436
+single megahit FullCoassemblyNo3 3076,-4.88728130415465
+single megahit FullCoassemblyNo3 3122,-3.82779784523914
+single megahit FullCoassemblyNo3 3149,-1.75488713548705
+single megahit FullCoassemblyNo3 3153,-2.66748431417333
+single megahit FullCoassemblyNo3 3171,-6.51403372599325
+single megahit FullCoassemblyNo3 3331,-6.75089573346796
+single megahit FullCoassemblyNo3 3377,-4.1577117904125
+single megahit FullCoassemblyNo3 3444,-5.64288414123435
+single megahit FullCoassemblyNo3 3477,-6.00744161912496
+single megahit FullCoassemblyNo3 3518,1.59539097009115
+single megahit FullCoassemblyNo3 3582,-1.96608380058255
+single megahit FullCoassemblyNo3 3613,-5.61052410188794
+single megahit FullCoassemblyNo3 3672,-4.9187848386637
+single megahit FullCoassemblyNo3 3711,-10.4106263794271
+single megahit FullCoassemblyNo3 3753,-1.13409856217268
+single megahit FullCoassemblyNo3 3754,-1.02551861022555
+single megahit FullCoassemblyNo3 3780,-4.81852090086199
+single megahit FullCoassemblyNo3 380,-8.48411055055206
+single megahit FullCoassemblyNo3 3834,-5.89645406027599
+single megahit FullCoassemblyNo3 3876,-0.352990339505605
+single megahit FullCoassemblyNo3 393,0.833362629944188
+single megahit FullCoassemblyNo3 3980,-4.79273236923444
+single megahit FullCoassemblyNo3 4084,-7.96035849700376
+single megahit FullCoassemblyNo3 4105,-5.52286203977409
+single megahit FullCoassemblyNo3 4118,-5.43631805127708
+single megahit FullCoassemblyNo3 4155,-0.325182595932899
+single megahit FullCoassemblyNo3 4203,-1.72154874040507
+single megahit FullCoassemblyNo3 424,-3.85814880992239
+single megahit FullCoassemblyNo3 4285,-3.63010909833827
+single megahit FullCoassemblyNo3 4393,-2.62945443376088
+single megahit FullCoassemblyNo3 4496,0.359663690460808
+single megahit FullCoassemblyNo3 4591,-8.37638540535838
+single megahit FullCoassemblyNo3 4654,-16.0894017313777
+single megahit FullCoassemblyNo3 4799,-1.18852511338971
+single megahit FullCoassemblyNo3 4985,-7.62827427451319
+single megahit FullCoassemblyNo3 5008,-4.52219743509935
+single megahit FullCoassemblyNo3 746,-1.32561990098175
+single megahit P6404 202 117,-0.236514477366586
+single megahit P6404 202 126,-0.999087141451463
+single megahit P6404 202 138,-4.02412925081079
+single megahit P6404 202 153,-0.739839580685967
+single megahit P6404 202 201,-4.09709182900652
+single megahit P6404 202 249,0.703099848934778
+single megahit P6404 202 261,1.39013855955816
+single megahit P6404 202 305,1.68317583996732
+single megahit P6404 205 105,-0.820907387806477
+single megahit P6404 205 48,-0.762789153227015
+single megahit P6404 205 81,-5.31455460932679
+single megahit P6404 206 167,0.748419473920845
+single megahit P6404 206 175,-2.91266152287056
+single megahit P6404 206 209,-0.543822887465007
+single megahit P6404 206 89,6.41897759327548
+single megahit P6404 211 139,-0.882440377676188
+single megahit P6404 211 66,-0.976464829540299
+single megahit P6404 211 68,-1.95388181621439
+single megahit P6404 211 78,-2.39243549150672
+single megahit P6404 211 91,-3.23327390842463
+single megahit P6404 213 6,-1.20269730497465
+single megahit P6404 213 9,-1.50059001973627
+single megahit P6404 219 18,-0.206746334778346
+single megahit P6404 219 19,-0.996324452341617
+single megahit P6404 219 42,-1.57926889778613
+single megahit P6404 219 48,-0.553559042911577
+single megahit P6404 221 100,-0.385484685606163
+single megahit P6404 221 102,0.196640528002672
+single megahit P6404 221 108,-1.8825907964257
+single megahit P6404 221 12,0.204988956585567
+single megahit P6404 221 142,-1.5556384805249
+single megahit P6404 221 196,-3.23964740988292
+single megahit P6404 221 33,-0.917169784522695
+single megahit P6404 221 35,-1.23300888128969
+single megahit P6404 221 52,0.553781615301143
+single megahit P6404 221 60,6.20985130359131
+single megahit P6404 221 73,0.0348928093309976
+single megahit P6404 221 86,-0.796092240052278
+single megahit P6404 221 89,-1.30842416786179
+single megahit P6404 221 93,0.908930871573931
+single megahit P6404 221 96,0.852587051466294
+single megahit P6404 221 99,-0.153726971171044
+single megahit P6404 222 12,-0.127185904722948
+single megahit P6404 222 21,-0.871926967327542
+single megahit P6404 222 24,-1.4789281631959
+single megahit P6404 222 2,-0.85111156342328
+single megahit P6404 222 32,2.10627268674724
+single megahit P6404 222 40,-1.22594825530272
+single megahit P6404 222 42,0.959153217578297
+single megahit P6404 222 66,5.45090255178657
+single megahit P6404 222 73,-1.5609637488252
+single megahit P6404 222 76,-0.946751240214368
+single megahit P6404 222 90,-8.93661279370279
+single megahit P6404 225 150,-4.22412421541013
+single megahit P6404 225 176,-8.26150664847398
+single megahit P6404 225 184,-3.23867458688467
+single megahit P6404 225 194,-4.71596890291776
+single megahit P6404 225 205,-3.33791763895957
+single megahit P6404 225 211,-5.03737314623885
+single megahit P6404 225 237,-0.838560460141486
+single megahit P6404 225 286,-7.35540809943036
+single megahit P6404 226 53,-6.70676702769701
+single megahit P6404 227 100,-2.00689103400755
+single megahit P6404 227 113,-2.27810539510454
+single megahit P6404 227 115,-2.35927209717107
+single megahit P6404 227 148,-4.51826757626182
+single megahit P6404 227 151,-4.10773529628542
+single megahit P6404 227 168,-1.36861708395519
+single megahit P6404 227 20,-8.83365564930901
+single megahit P6404 227 44,5.74726866720195
+single megahit P6404 227 51,-5.20439123243
+single megahit P6404 227 97,-8.56547494367257
+single megahit P6404 228 85,1.02989113154633
+single megahit P6404 229 268,-2.21198387713008
+single megahit P6404 229 293,-2.93405125463484
+single megahit P6404 229 355,-2.22522845846235
+single megahit P6404 229 400,-3.45254853361611
+single megahit P6404 229 614,-5.89831833864738
+single megahit P6404 229 76,-4.06758616982052
+single megahit P6404 230 111,-7.13671923577827
+single megahit P6404 230 54,-2.69180093069372
+single megahit P6404 230 87,-7.24523176420275
+single megahit P6404 237 40,-2.98235395849155
+single megahit P6404 237 42,-2.87164357801622
+single megahit P6404 237 48,-3.63221225653324
+single megahit P6404 237 55,-2.48369948125575
+single megahit P6404 238 23,-3.23081701736604
+single megahit P6404 238 39,-2.3458474305507
+single megahit P6404 241 157,-2.95553073010321
+single megahit P6404 241 199,-3.27772346110925
+single megahit P6404 241 270,1.43179913260055
+single megahit P6404 241 282,-0.292983623642299
+single megahit P6404 241 292,-4.6371225458519
+single megahit P6404 241 295,0.640579472223316
+single megahit P6404 241 321,-1.745772667918
+single megahit P6404 241 326,-0.0375422724836276
+single megahit P6404 241 331,-3.3987941383611
+single megahit P6404 241 332,-1.28209126813897
+single megahit P6404 241 369,-2.68227516031869
+single megahit P6404 241 421,-1.02044100517852
+single megahit P6404 241 457,-1.46004185637363
+single megahit P6404 241 73,-1.14521206719071
+single megahit P6404 242 134,-1.71381327073348
+single megahit P6404 242 140,-3.57525798376096
+single megahit P6404 242 146,-6.33796852599111
+single megahit P6404 242 147,-4.82352315886386
+single megahit P6404 242 185,-1.81874420575547
+single megahit P6404 242 18,-0.271198127296462
+single megahit P6404 242 190,-1.90030746748462
+single megahit P6404 242 194,-2.68050244822466
+single megahit P6404 242 207,-1.61641054462033
+single megahit P6404 242 213,-3.79898324866195
+single megahit P6404 242 219,-0.0797044328017497
+single megahit P6404 242 226,0.164517494750756
+single megahit P6404 242 249,-3.81884882500911
+single megahit P6404 242 259,-4.55510353904101
+single megahit P6404 242 260,-3.24351198163303
+single megahit P6404 242 265,-6.03282275264013
+single megahit P6404 242 311,-0.698099006428772
+single megahit P6404 242 326,-0.0576942609057659
+single megahit P6404 242 375,-2.79242468347885
+single megahit P6404 242 407,-5.86213291894947
+single megahit P6404 242 418,-7.98468515394785
+single megahit P6404 242 62,-1.33553869397499
+single megahit P6404 242 95,4.78936494701366
+single megahit P6404 244 5,4.55398591911274
+single megahit P6404 245 16,-4.12774493067303
+single megahit P6404 245 23,-2.41287926577077
+single megahit P6404 245 31,-0.610921943521059
+single megahit P6404 245 42,-3.37120234400321
+single megahit P6404 245 60,-1.90499197020339
+single megahit P6404 246 101,-2.45389158901663
+single megahit P6404 246 37,-0.785653270240174
+single megahit P6404 246 41,-2.76920033601257
+single megahit P6404 246 42,-3.79987949450855
+single megahit P6404 246 44,-3.34627767093903
+single megahit P6404 246 73,0.916773704289555
+single megahit P6404 249 117,-2.16653809167266
+single megahit P6404 250 50,-9.17697267972487
+single megahit P6404 250 56,-9.25248486135393
+single megahit P6404 250 70,4.09210339647502
+single megahit P6404 251 236,-6.09159010958953
+single megahit P6404 252 116,-2.75722561095113
+single megahit P6404 252 130,0.40511359113632
+single megahit P6404 252 93,-2.35518479762961
+single megahit P6404 253 160,-2.48387197034446
+single megahit P6404 253 42,3.89676654091678
+single megahit P6404 253 63,-0.119906936077254
+single megahit P6404 253 82,-3.1444229282527
+single megahit P6404 253 99,-2.70756803549136
+single megahit P6404 258 21,-2.29270831621303
+single megahit P6404 258 27,-0.0522863857463346
+single megahit P6404 258 31,-2.0734152744135
+single megahit P6404 258 33,-1.60451739589584
+single megahit P6404 258 49,-4.77195379941185
+single megahit P6404 258 55,3.88311619936817
+single megahit P6404 259 38,-3.91405760255241
+single megahit P6404 269 103,3.92851156966168
+single megahit P6404 269 109,-3.22784675359134
+single megahit P6404 269 111,0.0374305251462716
+single megahit P6404 269 116,0.190379527756892
+single megahit P6404 269 127,-1.53450128520922
+single megahit P6404 269 13,-1.72444246140491
+single megahit P6404 269 141,-3.29780736650158
+single megahit P6404 269 145,-2.22511590500973
+single megahit P6404 269 173,-4.05033389598855
+single megahit P6404 269 178,-2.12850408356606
+single megahit P6404 269 206,-0.128160316469566
+single megahit P6404 269 211,0.518954335370362
+single megahit P6404 269 46,1.68363263676117
+single megahit P6404 269 63,-0.147819688091424
+single megahit P6404 269 6,-1.55824514500136
+single megahit P6404 269 80,-1.55729241135234
+single megahit P6404 269 89,-2.08517111083457
+single megahit P6404 269 8,-2.34803195364485
+single megahit P6404 269 93,-3.4931896440172
+single megahit P6404 273 16,-8.72709364625224
+single megahit P6404 275 125,-1.92276255584297
+single megahit P6404 275 136,-6.88232283467333
+single megahit P6404 275 184,-3.43261383728872
+single megahit P6404 275 187,-0.171701730435301
+single megahit P6404 275 201,-1.47490805140031
+single megahit P6404 275 279,-5.4170229414721
+single megahit P6404 275 308,3.39415612447644
+single megahit P6404 276 164,-3.54628511334689
+single megahit P6404 276 194,-3.52025388608839
+single megahit P6404 276 225,-8.28168479908158
+single megahit P6404 276 306,-6.39623362996225
+single megahit P6404 277 41,-2.21210337409694
+single megahit P6404 277 7,-3.38560994064719
+single megahit P6404 284 10,-4.38772340736765
+single megahit P6404 291 2,3.68676745326292
+single megahit P6404 292 117,-2.54281857876344
+single megahit P6404 292 123,-2.00493327066954
+single megahit P6404 292 138,-1.11171751710047
+single megahit P6404 292 17,-3.56702040433371
+single megahit P6404 292 184,-3.2319391099074
+single megahit P6404 292 237,-3.71003150750354
+single megahit P6404 292 244,-4.18910341366445
+single megahit P6404 292 287,-2.01434088955466
+single megahit P6404 292 299,-4.33723975910195
+single megahit P6404 292 305,-0.483262023593785
+single megahit P6404 292 322,-1.70066810992806
+single megahit P6404 292 333,-4.58494420510726
+single megahit P6404 292 337,-4.38149208955635
+single megahit P6404 292 343,-6.49596032834336
+single megahit P6404 292 349,4.28140671742767
+single megahit P6404 292 365,-1.62772934205946
+single megahit P6404 292 41,-0.992530510177388
+single megahit P6404 292 441,-2.76366621285183
+single megahit P6404 292 442,-16.0894017313777
+single megahit P6404 292 462,-3.27025032999717
+single megahit P6404 292 473,-3.77456954423045
+single megahit P6404 292 475,-2.242736941259
+single megahit P6404 292 638,-5.2562112743702
+single megahit P6404 292 645,-1.58229756837571
+single megahit P6404 293 136,-3.69835475361303
+single megahit P6404 293 138,-5.54759232833676
+single megahit P6404 293 13,-7.45754668588459
+single megahit P6404 293 161,-4.12991131051386
+single megahit P6404 293 176,3.68351143319815
+single megahit P6404 293 184,-2.22877388781919
+single megahit P6404 293 200,-4.10338627944382
+single megahit P6404 293 229,-2.71591695513846
+single megahit P6404 293 239,-1.71550514809904
+single megahit P6404 293 255,-4.55828296905177
+single megahit P6404 293 260,-0.482500150612555
+single megahit P6404 293 319,-2.81305186673612
+single megahit P6404 293 416,-1.41766349285848
+single megahit Sample 897 01 16,5.14300223230391
+single megahit Sample 897 08 106,-3.88779968690745
+single megahit Sample 897 08 123,-2.3331735277968
+single megahit Sample 897 08 139,-4.7888033541084
+single megahit Sample 897 08 152,-1.66908222239331
+single megahit Sample 897 08 154,-2.05873425531244
+single megahit Sample 897 08 177,-8.03428648269948
+single megahit Sample 897 08 179,-0.304892474704426
+single megahit Sample 897 08 201,-10.4919590344175
+single megahit Sample 897 08 230,-3.64357285002082
+single megahit Sample 897 08 97,4.2352037213314
+single megahit Sample 898 08 127,-3.12766733812017
+single megahit Sample 898 08 143,-2.66435098132634
+single megahit Sample 898 08 181,-5.60384857310777
+single megahit Sample 898 08 187,-4.39517644032625
+single megahit Sample 898 08 194,0.64419610116848
+single megahit Sample 898 08 200,-4.28139992661449
+single megahit Sample 898 08 242,-4.58197772410391
+single megahit Sample 898 08 246,-4.91456212887343
+single megahit Sample 898 08 29,-1.13910820803327
+single megahit Sample 898 08 36,-0.760612571312849
+single megahit Sample 898 08 452,-4.80417278955019
+single megahit Sample 899 01 128,-4.89353666811702
+single megahit Sample 899 01 146,-6.3429741521076
+single megahit Sample 899 01 149,-3.24569135702349
+single megahit Sample 899 01 150,-0.110501717892542
+single megahit Sample 899 01 173,-2.23958664953123
+single megahit Sample 899 01 180,-1.25318464715849
+single megahit Sample 899 01 192,-4.01274389065194
+single megahit Sample 899 01 195,-4.11752200943467
+single megahit Sample 899 01 196,3.05721104607733
+single megahit Sample 899 01 200,-2.19293118436608
+single megahit Sample 899 01 217,-2.88894829771283
+single megahit Sample 899 01 218,-2.37862802257931
+single megahit Sample 899 01 227,-5.21551964295769
+single megahit Sample 899 01 228,-2.30216408207174
+single megahit Sample 899 01 266,-2.12922817923902
+single megahit Sample 899 01 275,-2.82623274276417
+single megahit Sample 899 01 392,-5.78246116571191
+single megahit Sample 899 01 403,-1.67895009043073
+single megahit Sample 899 01 52,-7.58436463564493
+single megahit Sample 902 08 107,-1.57529219373674
+single megahit Sample 902 08 109,-3.18282789371568
+single megahit Sample 902 08 110,-3.92914252316455
+single megahit Sample 902 08 112,-3.74760439882402
+single megahit Sample 902 08 114,-2.79001221315647
+single megahit Sample 902 08 140,-1.33201298375592
+single megahit Sample 902 08 142,-7.61110643749848
+single megahit Sample 902 08 144,-1.35539163429765
+single megahit Sample 902 08 152,-3.51845792779237
+single megahit Sample 902 08 158,-5.26256629006322
+single megahit Sample 902 08 200,-4.97309966854911
+single megahit Sample 902 08 74,-3.20396573232147
+single megahit Sample 902 08 95,-7.42855774732695
+single megahit Sample 903 01 23,3.05595456186166
+single megahit Sample 904 01 100,-3.53535320401663
+single megahit Sample 904 01 135,-1.66405388560951
+single megahit Sample 904 01 33,-1.29300681064885
+single megahit Sample 904 01 66,-1.82892825924025
+single megahit Sample 904 01 70,2.07945933738795
+single megahit Sample 904 01 72,-2.82380981263989
+single megahit Sample 904 01 75,-2.58491609731838
+single megahit Sample 904 01 79,-0.619197902788734
+single megahit Sample 904 01 82,1.35913482898729
+single megahit Sample 904 08 100,-4.29633349637884
+single megahit Sample 904 08 104,-6.09016284039064
+single megahit Sample 904 08 114,-5.05019266427226
+single megahit Sample 904 08 130,-2.87166220767602
+single megahit Sample 904 08 151,-6.52398362725645
+single megahit Sample 904 08 16,-2.24549125145214
+single megahit Sample 904 08 182,-2.71350621979191
+single megahit Sample 904 08 249,0.416163561826385
+single megahit Sample 904 08 276,-1.93063946975376
+single megahit Sample 904 08 64,-4.9918487531063
+single megahit Sample 904 08 72,-5.00470969570668
+single megahit Sample 904 08 83,-2.21058045162733
+single megahit Sample 905 08 128,-3.75904933716004
+single megahit Sample 905 08 193,-3.74311833391096
+single megahit Sample 905 08 48,-5.49773284684985
+single megahit Sample 905 08 64,-4.58040068085523
+single megahit Sample 905 08 75,-4.69756684908678
+single megahit Sample 906 01 54,-4.08689833827281
+single megahit Sample 906 01 57,-3.40168252404105
+single megahit Sample 906 01 66,-3.27223696132601
+single megahit Sample 906 01 69,-2.44501856674541
+single megahit Sample 906 01 78,-3.41987270429324
+single megahit Sample 908 01 22,-2.14096910371124
+single megahit Sample 908 01 4,2.65501123820634
+single megahit Sample 908 08 101,-6.70832315619316
+single megahit Sample 908 08 113,-3.80093129889589
+single megahit Sample 908 08 116,-2.49133979974048
+single megahit Sample 908 08 120,-6.26147944638828
+single megahit Sample 908 08 125,-5.81006860111184
+single megahit Sample 908 08 134,-0.460445354952782
+single megahit Sample 908 08 143,-2.62750715511657
+single megahit Sample 908 08 152,-2.99766805448689
+single megahit Sample 908 08 203,3.03998046905045
+single megahit Sample 908 08 244,-2.2117237787776
+single megahit Sample 908 08 310,-3.9012928565633
+single megahit Sample 908 08 348,-2.53976126885371
+single megahit Sample 908 08 74,-3.25979885159115
+single megahit Sample 909 01 106,-3.37754769119883
+single megahit Sample 909 01 146,-4.33830017824094
+single megahit Sample 909 01 148,-6.30808961624094
+single megahit Sample 909 01 151,-3.9101391624065
+single megahit Sample 909 01 183,-2.03986101546872
+single megahit Sample 909 01 218,-4.08740978542059
+single megahit Sample 909 01 221,-3.45281012340216
+single megahit Sample 909 01 226,-2.09246127836493
+single megahit Sample 909 01 233,-0.0572288213410397
+single megahit Sample 909 01 241,-2.53302425801227
+single megahit Sample 909 01 246,-2.02931501772718
+single megahit Sample 909 01 247,-3.37587559791383
+single megahit Sample 909 01 257,-7.09612457519673
+single megahit Sample 909 01 315,-3.96945097134122
+single megahit Sample 909 01 336,-1.66852278130447
+single megahit Sample 909 01 343,-4.35740109490744
+single megahit Sample 909 01 384,-5.89914182468734
+single megahit Sample 909 01 394,-3.57107774752286
+single megahit Sample 909 01 397,-5.00718807507378
+single megahit Sample 909 01 423,-2.89985413767016
+single megahit Sample 909 01 432,-1.6535648162045
+single megahit Sample 909 01 465,-6.13655806831941
+single megahit Sample 909 01 467,-5.00540945394705
+single megahit Sample 909 01 469,-9.6091241484551
+single megahit Sample 909 01 46,-3.09141149623694
+single megahit Sample 909 01 470,-16.0894017313777
+single megahit Sample 909 01 99,-6.06582149249653
+single megahit Sample 909 08 117,-7.59235002906876
+single megahit Sample 909 08 157,-5.62787970983786
+single megahit Sample 909 08 202,-2.6248728231629
+single megahit Sample 909 08 216,-5.88442534406468
+single megahit Sample 909 08 217,-7.70388825542267
+single megahit Sample 909 08 251,-6.68480589244482
+single megahit Sample 909 08 254,-3.03425801130344
+single megahit Sample 909 08 281,-5.0366161354597
+single megahit Sample 909 08 282,-3.499787798873
+single megahit Sample 909 08 288,-5.57212477534117
+single megahit Sample 909 08 317,-2.33419716630506
+single megahit Sample 909 08 333,-7.59318916326358
+single megahit Sample 909 08 404,-6.45983757571741
+single megahit Sample 909 08 405,-3.38651300056871
+single megahit Sample 909 08 489,-1.5095207234461
+single megahit Sample 909 08 504,-4.15183271345928
+single megahit Sample 909 08 552,-3.09616934266911
+single megahit Sample 910 01 21,1.88331548072549
+single megahit Sample 910 08 101,-2.71793596436311
+single megahit Sample 910 08 112,-3.83928131884944
+single megahit Sample 910 08 116,-0.743232213813756
+single megahit Sample 910 08 131,-0.683009927375341
+single megahit Sample 910 08 239,-4.44098078915486
+single megahit Sample 910 08 265,-3.48879717412831
+single megahit Sample 910 08 98,-5.89361366139768
+single megahit Sample 911 01 16,-1.47768071705131
+single megahit Sample 913 01 114,-2.83749127603311
+single megahit Sample 913 01 38,-2.93675517777094
+single megahit Sample 913 01 39,-5.12591362687846
+single megahit Sample 913 01 47,-5.50140677338356
+single megahit Sample 913 01 53,-4.18664033286998
+single megahit Sample 913 01 60,-1.5865950061264
+single megahit Sample 913 01 66,-4.3216770956216
+single megahit Sample 913 01 70,-0.37960046676945
+single megahit Sample 913 01 71,-3.22802239722896
+single megahit Sample 913 01 74,-0.637913063212012
+single megahit Sample 913 01 80,-2.16462226923035
+single megahit Sample 913 01 85,-1.05855087089938
+single megahit Sample 913 01 89,2.02848242232019
+single megahit Sample 913 01 92,-1.36337917607455
+single megahit Sample 913 01 94,-4.58812041690112
+single megahit Sample 914 30 35,-1.25145112615252
+single megahit Sample 914 30 57,-7.74788684784225
+single megahit Sample 914 30 90,-4.10028148987096
+single megahit Sample 915 08 114,-8.87982425637886
+single megahit Sample 915 08 130,-3.86613812174614
+single megahit Sample 915 08 161,-5.36522311830905
+single megahit Sample 915 08 163,-1.86228872524566
+single megahit Sample 915 08 166,-4.57382637000739
+single megahit Sample 915 08 173,-4.06305514203898
+single megahit Sample 915 08 187,-4.06666310712774
+single megahit Sample 915 08 193,-3.17206892474351
+single megahit Sample 915 08 212,-6.50537619681502
+single megahit Sample 915 08 28,-2.90291310294743
+single megahit Sample 915 08 321,-5.05794592141918
+single megahit Sample 915 08 40,-5.8473069425629
+single megahit Sample 916 08 111,-5.38481458066006
+single megahit Sample 916 08 114,-6.03011948642366
+single megahit Sample 916 08 134,-2.78077469913766
+single megahit Sample 916 08 136,-4.22804279049782
+single megahit Sample 916 08 140,-2.62531108207836
+single megahit Sample 916 08 144,-0.91476054638568
+single megahit Sample 916 08 147,-0.557560484760344
+single megahit Sample 916 08 149,-4.81238995115715
+single megahit Sample 916 08 160,-8.25700001478874
+single megahit Sample 916 08 184,-4.10660802119831
+single megahit Sample 916 08 55,-1.59104464747358
+single megahit Sample 917 08 117,-3.45366311574379
+single megahit Sample 917 08 129,-2.8988317773515
+single megahit Sample 917 08 12,-3.66182875935479
+single megahit Sample 917 08 130,-2.07743361854138
+single megahit Sample 917 08 140,-6.54336650914041
+single megahit Sample 917 08 153,-1.98706403378119
+single megahit Sample 917 08 154,-2.90749745388509
+single megahit Sample 917 08 157,-2.29088751429071
+single megahit Sample 917 08 175,-4.7172887934988
+single megahit Sample 917 08 176,-4.9935563308993
+single megahit Sample 917 08 186,-3.03643852658549
+single megahit Sample 917 08 194,-3.17672733980078
+single megahit Sample 917 08 200,-3.04606838806792
+single megahit Sample 917 08 203,-7.9985214404171
+single megahit Sample 917 08 206,-3.86779404353063
+single megahit Sample 917 08 207,-0.0988068031946145
+single megahit Sample 917 08 215,-1.46964028709248
+single megahit Sample 917 08 223,-4.9510059679576
+single megahit Sample 917 08 231,1.37670631026269
+single megahit Sample 917 08 245,-0.0444072933911011
+single megahit Sample 917 08 287,-5.29909250639247
+single megahit Sample 917 08 306,-5.24567938651974
+single megahit Sample 917 08 361,-5.48868817523302
+single megahit Sample 917 08 372,-1.86041830701291
+single megahit Sample 917 08 65,-8.4885987233328
+single megahit Station 10 116,-4.9031709125436
+single megahit Station 10 140,-3.09742022009772
+single megahit Station 10 181,-4.75288625548186
+single megahit Station 10 185,-4.24384871193027
+single megahit Station 10 192,3.75143125448716
+single megahit Station 10 230,-9.60504025174887
+single megahit Station 10 232,-6.28551170705754
+single megahit Station 10 258,-7.33246486643211
+single megahit Station 10 367,-1.72755982948587
+single megahit Station 10 386,-10.9559654191411
+single megahit Station 10 389,-3.61799662028171
+single megahit Station 10 425,-4.3998202595623
+single megahit Station 10 438,-4.19831745379933
+single megahit Station 11 116,-2.67246999420145
+single megahit Station 1 113,-6.44310210410306
+single megahit Station 11 147,-5.5459769292657
+single megahit Station 1 119,-3.43734104820526
+single megahit Station 1 122,-11.1660882916067
+single megahit Station 11 230,-4.41425511916933
+single megahit Station 11 260,-7.21023806512669
+single megahit Station 11 280,-6.58198323413172
+single megahit Station 11 295,-3.0423299501623
+single megahit Station 11 305,-3.52422232257352
+single megahit Station 11 338,-4.43400114539197
+single megahit Station 11 349,-3.78128906207275
+single megahit Station 1 136,4.29398536968616
+single megahit Station 11 371,-6.33750879612872
+single megahit Station 11 377,-8.6956605656841
+single megahit Station 11 396,-7.7849400452498
+single megahit Station 11 403,-2.68655927482737
+single megahit Station 11 407,-5.08834031787847
+single megahit Station 11 411,-2.97408581733541
+single megahit Station 11 413,-4.05563063660133
+single megahit Station 11 415,-4.02307858261431
+single megahit Station 11 418,-5.64028293435538
+single megahit Station 11 434,-3.21038639417012
+single megahit Station 11 437,-1.39939487062369
+single megahit Station 11 439,-3.82983850828338
+single megahit Station 11 440,-4.34810197739291
+single megahit Station 11 444,-4.02696385776672
+single megahit Station 11 448,-3.27904716485867
+single megahit Station 11 458,-5.11358200782859
+single megahit Station 11 460,-2.95290974533444
+single megahit Station 11 473,-4.25098915971478
+single megahit Station 11 485,-4.00500693659251
+single megahit Station 11 499,-4.63975197886796
+single megahit Station 11 514,-4.3000486800074
+single megahit Station 11 543,-3.84306483822434
+single megahit Station 11 546,-2.77853333497648
+single megahit Station 11 552,-5.08523955236929
+single megahit Station 1 156,-0.354651571633593
+single megahit Station 1 158,1.00350877866966
+single megahit Station 11 625,-6.63722073982368
+single megahit Station 1 166,-3.81267280756582
+single megahit Station 11 739,-2.22416975186406
+single megahit Station 1 180,-5.15511737989392
+single megahit Station 12 218,-2.82761097506165
+single megahit Station 12 232,-6.24069918969623
+single megahit Station 12 242,-4.54085746479673
+single megahit Station 12 255,-7.69895199229228
+single megahit Station 12 259,-4.275765024593
+single megahit Station 12 300,-5.71298504871521
+single megahit Station 12 319,-7.54393757257168
+single megahit Station 12 341,2.28334299045306
+single megahit Station 12 437,-3.18865177232226
+single megahit Station 1 245,-2.29288731648975
+single megahit Station 12 46,-4.32010244170104
+single megahit Station 12 478,-6.71628804377623
+single megahit Station 12 492,-3.3772145238957
+single megahit Station 12 522,-5.26202341166311
+single megahit Station 12 53,-6.84486736696726
+single megahit Station 12 565,-4.27691474319421
+single megahit Station 12 81,-1.90528316528277
+single megahit Station 12 84,-4.40920999457448
+single megahit Station 1 287,0.338884847512529
+single megahit Station 1 309,-2.27211662876522
+single megahit Station 13 1116,-3.93428044571957
+single megahit Station 13 1184,-4.37018691995045
+single megahit Station 13 1244,-1.89614157144605
+single megahit Station 13 12,-5.0005588477464
+single megahit Station 1 316,-9.60972689818705
+single megahit Station 13 170,-5.87411788300112
+single megahit Station 13 22,-1.46421474285898
+single megahit Station 13 243,-2.26663194079344
+single megahit Station 13 308,-5.5901249266547
+single megahit Station 13 311,-8.0941652864989
+single megahit Station 13 333,-6.69872673191306
+single megahit Station 13 38,-4.71276218690889
+single megahit Station 13 394,-4.27413572552501
+single megahit Station 13 428,-8.20908448754682
+single megahit Station 13 462,-5.03666266739248
+single megahit Station 13 484,-2.58268445256339
+single megahit Station 13 513,-3.23473413501203
+single megahit Station 13 558,-5.52355969693547
+single megahit Station 13 562,-7.36391110702445
+single megahit Station 13 569,-3.37466354766935
+single megahit Station 13 584,-4.03581838486993
+single megahit Station 13 621,-3.35141796912277
+single megahit Station 13 642,-4.10680667620636
+single megahit Station 13 650,-7.09598450241693
+single megahit Station 13 656,-5.66295245410375
+single megahit Station 13 673,2.89747588562735
+single megahit Station 13 734,-8.01967868305865
+single megahit Station 13 740,-4.16047439642022
+single megahit Station 13 763,-4.83280396217043
+single megahit Station 13 764,-5.45576483452312
+single megahit Station 13 821,-7.66866178742015
+single megahit Station 13 871,-3.59460868793886
+single megahit Station 13 873,-4.05005931113679
+single megahit Station 13 880,-7.66580083200197
+single megahit Station 13 883,-5.66042917571069
+single megahit Station 13 948,-8.2269274620574
+single megahit Station 13 977,-8.92352320700392
+single megahit Station 13 992,-3.42560380684146
+single megahit Station 14 115,-3.01044777669322
+single megahit Station 14 11,-3.80247035830299
+single megahit Station 14 151,0.290643057121721
+single megahit Station 14 165,-4.7319433180054
+single megahit Station 14 176,-2.60994683464582
+single megahit Station 14 185,-5.95521659776422
+single megahit Station 14 214,-4.25903800639909
+single megahit Station 14 248,1.86653271625805
+single megahit Station 14 34,-8.09354383001908
+single megahit Station 15 10,-6.5787900321498
+single megahit Station 15 40,-2.74966181980401
+single megahit Station 15 57,-4.75023031949636
+single megahit Station 15 96,-2.04267407327956
+single megahit Station 1 70,-5.38691579081627
+single megahit Station 17 123,-3.88489365889481
+single megahit Station 17 216,-3.0079484193759
+single megahit Station 17 258,-6.71202599320399
+single megahit Station 17 291,-8.72656148021017
+single megahit Station 17 301,-9.04953012491956
+single megahit Station 17 357,-6.07418799113738
+single megahit Station 17 362,-4.89958752246392
+single megahit Station 17 388,-4.43633696832677
+single megahit Station 17 405,-5.11378018120589
+single megahit Station 17 424,-4.8152838002606
+single megahit Station 17 431,-6.3467418060578
+single megahit Station 17 459,-6.98353680527771
+single megahit Station 17 46,-5.08786294224082
+single megahit Station 17 490,-6.50912001238967
+single megahit Station 17 493,-5.10994333146329
+single megahit Station 17 499,-1.97486312116866
+single megahit Station 17 513,-3.65842058459537
+single megahit Station 17 568,-3.59881783943951
+single megahit Station 17 605,2.18373633515877
+single megahit Station 17 626,-4.297730120863
+single megahit Station 17 671,-6.75436298065498
+single megahit Station 17 697,-5.72785184981298
+single megahit Station 17 794,-2.27912040264034
+single megahit Station 17 819,-3.94437467962114
+single megahit Station 17 841,-3.67323924049592
+single megahit Station 17 873,-8.53880844375037
+single megahit Station 17 937,-4.99127999821117
+single megahit Station 19 130,-2.5645893683342
+single megahit Station 19 156,1.92910246241213
+single megahit Station 19 16,-4.69297295195811
+single megahit Station 19 189,-2.70416389211385
+single megahit Station 19 198,-2.35364288171503
+single megahit Station 19 199,-3.0727601454018
+single megahit Station 19 224,-6.03250158600393
+single megahit Station 19 233,-3.92911354813995
+single megahit Station 19 235,-3.65626307086779
+single megahit Station 19 237,-5.2363081569949
+single megahit Station 19 247,-5.82511379553423
+single megahit Station 19 253,-4.35408466013236
+single megahit Station 19 275,-3.28303330180586
+single megahit Station 19 279,-5.28751652433618
+single megahit Station 19 293,-4.75270077939881
+single megahit Station 19 320,-4.74019198260567
+single megahit Station 19 324,-1.2849571523593
+single megahit Station 19 416,-1.77370066326881
+single megahit Station 19 426,-5.08625060275704
+single megahit Station 19 440,-1.59948982123914
+single megahit Station 20 274,-6.64048866366849
+single megahit Station 20 287,-8.13739408101624
+single megahit Station 20 302,-5.41197083707454
+single megahit Station 20 389,-2.81368397932468
+single megahit Station 20 422,-3.89534937102408
+single megahit Station 20 449,-5.24266932646236
+single megahit Station 20 486,-1.28062632949755
+single megahit Station 20 527,-8.38409715604907
+single megahit Station 20 552,-5.28056734568062
+single megahit Station 20 588,-9.98456100087139
+single megahit Station 20 823,-4.406946073381
+single megahit Station 20 918,-5.66589641388147
+single megahit Station 20 997,-6.19780501335353
+single megahit Station 21 119,-4.3243273010525
+single megahit Station 21 155,-3.7702884171684
+single megahit Station 21 170,-3.23801914711908
+single megahit Station 21 186,-1.91839776295364
+single megahit Station 21 196,-6.0390102546308
+single megahit Station 21 220,-3.58543166714419
+single megahit Station 21 237,-3.1767576200362
+single megahit Station 21 239,-3.55205766555453
+single megahit Station 21 250,-5.20698884193454
+single megahit Station 21 256,-5.26732571787139
+single megahit Station 21 261,-5.06046094184852
+single megahit Station 21 270,-5.2849986559821
+single megahit Station 21 278,-5.01792164068643
+single megahit Station 21 292,-5.8491945391092
+single megahit Station 21 302,-5.78709505615059
+single megahit Station 21 323,-2.91809464239899
+single megahit Station 21 336,-5.17563046775679
+single megahit Station 21 338,-5.74623207697385
+single megahit Station 21 358,-1.53829821213546
+single megahit Station 21 366,-2.00260996297907
+single megahit Station 21 375,-6.15389284101306
+single megahit Station 21 397,1.85448793346471
+single megahit Station 21 46,-4.05802721154532
+single megahit Station 21 480,-5.13723315636749
+single megahit Station 2 149,0.975980812764184
+single megahit Station 21 556,-5.535396069971
+single megahit Station 21 613,2.00560944257614
+single megahit Station 21 649,-5.38184794235257
+single megahit Station 21 680,-7.34259049062229
+single megahit Station 21 74,-8.01558843006422
+single megahit Station 22 219,-7.61603707483596
+single megahit Station 22 21,-9.41912376698444
+single megahit Station 22 255,-6.68518177932343
+single megahit Station 22 258,-3.96523094875829
+single megahit Station 22 25,-7.51981921403977
+single megahit Station 22 268,-4.78418895667799
+single megahit Station 22 289,-5.42101263502561
+single megahit Station 22 294,-4.25666790944703
+single megahit Station 22 305,-2.90950748351185
+single megahit Station 22 333,-6.12892102907801
+single megahit Station 22 335,-5.71553927445581
+single megahit Station 22 336,-1.94720002018438
+single megahit Station 22 353,-5.58768036314179
+single megahit Station 22 355,-6.87664096018571
+single megahit Station 22 365,-4.20681702892923
+single megahit Station 22 381,-6.7786506230748
+single megahit Station 22 385,-3.74776418263782
+single megahit Station 22 392,-3.85605566535102
+single megahit Station 22 409,-5.67031950694223
+single megahit Station 22 446,1.9609120537954
+single megahit Station 22 457,-2.78143157550509
+single megahit Station 22 487,-4.49417443213222
+single megahit Station 22 584,-5.32538201396966
+single megahit Station 22 600,-4.7862583761373
+single megahit Station 22 604,-4.96059001987691
+single megahit Station 2 268,-4.07516430082383
+single megahit Station 22 780,-1.87186596414545
+single megahit Station 2 308,-6.86214953799498
+single megahit Station 23 116,-2.07709165225574
+single megahit Station 23 122,-5.78988063951641
+single megahit Station 23 124,-9.93582496926042
+single megahit Station 23 135,-1.77773373504967
+single megahit Station 23 139,-4.51896733966275
+single megahit Station 23 140,-5.0116095760471
+single megahit Station 23 145,1.78766413454474
+single megahit Station 23 183,-3.2826362823299
+single megahit Station 23 215,-6.76952885689901
+single megahit Station 23 225,-2.68972213344206
+single megahit Station 23 234,-4.14591518136037
+single megahit Station 23 235,-5.48828316642386
+single megahit Station 23 237,-3.57991720238666
+single megahit Station 23 244,-7.56065146313005
+single megahit Station 23 252,-5.36486988296634
+single megahit Station 23 254,-3.53377808579428
+single megahit Station 23 293,-9.90535025863089
+single megahit Station 23 294,-0.980295740854688
+single megahit Station 23 298,-5.02200464206018
+single megahit Station 23 314,-8.15991754229952
+single megahit Station 23 324,-3.02895907898091
+single megahit Station 23 335,-4.18135346007272
+single megahit Station 23 364,-3.40315173150031
+single megahit Station 23 41,-2.25319380632211
+single megahit Station 23 463,-5.18604677279496
+single megahit Station 23 465,-16.0894017313777
+single megahit Station 23 495,-0.493232256894869
+single megahit Station 23 528,-1.99415467507436
+single megahit Station 23 565,-5.2649385833816
+single megahit Station 23 610,-4.76775102413404
+single megahit Station 23 88,-1.51027249026259
+single megahit Station 2 396,-3.41699927812292
+single megahit Station 24 122,-4.68188474347392
+single megahit Station 24 129,-8.79610392873405
+single megahit Station 24 144,-2.74495249367284
+single megahit Station 24 156,-4.2378250113946
+single megahit Station 24 157,-4.94881258338822
+single megahit Station 24 166,-1.96956465854977
+single megahit Station 24 170,-7.04208831338582
+single megahit Station 24 203,-3.94507944149011
+single megahit Station 24 23,-4.26098640115135
+single megahit Station 24 288,-1.76458351553194
+single megahit Station 2 447,-3.35725954508346
+single megahit Station 2 546,-3.14256526672615
+single megahit Station 2 575,-4.78989507255353
+single megahit Station 2 624,-5.99650533787666
+single megahit Station 2 766,-4.17918094299182
+single megahit Station 2 794,-6.94055822931826
+single megahit Station 2 795,-2.19220724804082
+single megahit Station 2 800,-5.47711884330684
+single megahit Station 2 83,-3.56708630787787
+single megahit Station 2 847,-1.93854538175749
+single megahit Station 2 920,-5.59868938540026
+single megahit Station 2 967,-5.34850210410543
+single megahit Station 2 974,-5.06086364791045
+single megahit Station 3 125,-8.22048744513777
+single megahit Station 3 168,-6.11652648229512
+single megahit Station 3 212,-6.06389134543295
+single megahit Station 3 213,-8.70158980876514
+single megahit Station 3 233,-9.30881172743756
+single megahit Station 3 249,-4.43757590656386
+single megahit Station 3 264,-5.04743200153424
+single megahit Station 3 27,-4.87093658548897
+single megahit Station 3 291,-4.66977892776159
+single megahit Station 3 292,-5.01972725694594
+single megahit Station 3 350,-4.70437014743959
+single megahit Station 3 422,1.2101111664806
+single megahit Station 3 46,-4.87508767542205
+single megahit Station 3 471,-3.40250719970782
+single megahit Station 3 550,-7.10535649455043
+single megahit Station 3 573,-3.51794292793507
+single megahit Station 3 91,-6.81414942232413
+single megahit Station 3 92,-6.435178134637
+single megahit Station 4 158,-6.17550866616567
+single megahit Station 4 162,-4.5344847558242
+single megahit Station 4 203,-2.97993187066575
+single megahit Station 4 204,-2.18001160670571
+single megahit Station 4 210,-4.16421814741819
+single megahit Station 4 229,-5.38555906928153
+single megahit Station 4 233,-4.23051633400607
+single megahit Station 4 239,-8.07836930664628
+single megahit Station 4 242,-3.5665101487419
+single megahit Station 4 256,2.50436358770878
+single megahit Station 4 262,-1.95189998380724
+single megahit Station 4 269,-3.5997156421135
+single megahit Station 4 293,-1.76571279386519
+single megahit Station 4 29,-1.92936877814628
+single megahit Station 4 304,-2.69671241194376
+single megahit Station 4 315,-5.20470780865499
+single megahit Station 4 322,-6.35189445080772
+single megahit Station 4 324,-4.41775612883817
+single megahit Station 4 328,-9.08652896363275
+single megahit Station 4 344,-5.50286015099754
+single megahit Station 4 346,-4.70384332684734
+single megahit Station 4 352,-1.74999844269813
+single megahit Station 4 353,-1.0942314029367
+single megahit Station 4 354,-7.28385263956081
+single megahit Station 4 35,-5.76564707270283
+single megahit Station 4 438,-2.12528810816282
+single megahit Station 4 453,-4.51822776499704
+single megahit Station 4 580,-4.36163867926891
+single megahit Station 4 58,-4.49690404462356
+single megahit Station 4 71,-5.3641676628197
+single megahit Station 5 120,-2.88998112057139
+single megahit Station 5 136,-1.00469652536698
+single megahit Station 5 149,-4.2530858027876
+single megahit Station 5 160,-6.26496526132277
+single megahit Station 5 178,-1.42528725371132
+single megahit Station 5 187,-4.36489479066461
+single megahit Station 5 216,3.62498227984044
+single megahit Station 5 263,-1.09816041349514
+single megahit Station 5 40,-5.24891754291634
+single megahit Station 7 105,-3.68988203914829
+single megahit Station 7 109,-3.1596121593675
+single megahit Station 7 126,-8.20973371364024
+single megahit Station 7 199,-5.1233712838505
+single megahit Station 7 65,-9.61207244894116
+single megahit Station 7 71,-2.46821463686335
+single megahit Station 7 78,1.4022942407175
+single megahit Station 7 93,-3.81619362598174
+single megahit Station 8 156,1.41398578221295
+single megahit Station 8 204,-1.35453778711199
+single megahit Station 8 209,0.932032562666607
+single megahit Station 8 210,-4.26404757796467
+single megahit Station 8 212,-8.18203896379004
+single megahit Station 8 220,-6.12249332084641
+single megahit Station 8 242,-4.46405272702161
+single megahit Station 8 247,-6.55134664059028
+single megahit Station 8 250,-4.04596349891335
+single megahit Station 8 288,-7.85359560837713
+single megahit Station 8 290,-3.64687578726848
+single megahit Station 8 328,-6.42420901399023
+single megahit Station 8 424,-5.07209721729352
+single megahit Station 8 439,-4.37527167253918
+single megahit Station 8 444,-4.18124624391433
+single megahit Station 8 9,-3.27688963536449
+single megahit Station 9 103,-4.06387463954978
+single megahit Station 9 171,-3.34982332737066
+single megahit Station 9 178,-6.96654630165963
+single megahit Station 9 191,-2.27704810615426
+single megahit Station 9 199,-3.73734297827609
+single megahit Station 9 205,-3.91810874568498
+single megahit Station 9 210,-5.2935995662726
+single megahit Station 9 217,-4.75574488144751
+single megahit Station 9 220,-5.17572920522077
+single megahit Station 9 234,-7.09734748955656
+single megahit Station 9 242,-4.7935745067989
+single megahit Station 9 243,-8.07475416604835
+single megahit Station 9 247,-6.2197337528432
+single spades P6404 206 166,-4.22716864311001
+single spades P6404 206 180,-5.20305468748371
+single spades P6404 206 198,-6.888220748918
+single spades P6404 206 286,-0.776342089696526
+single spades P6404 206 363,0.526537893265875
+single spades P6404 219 16,-4.07500544449531
+single spades P6404 219 1,-4.42024450808948
+single spades P6404 219 22,-6.60716674436494
+single spades P6404 241 122,-6.2944469627293
+single spades P6404 241 124,-7.09743057912953
+single spades P6404 241 200,-5.38932837680926
+single spades P6404 241 218,-1.01738075719844
+single spades P6404 241 225,-0.326096725275075
+single spades P6404 241 239,-4.02561117592276
+single spades P6404 241 23,2.39070028201135
+single spades P6404 241 252,-4.55681193917783
+single spades P6404 241 264,-6.42990737489197
+single spades P6404 241 273,-1.67573604828149
+single spades P6404 241 276,-3.35127485493898
+single spades P6404 241 301,-6.27753298329669
+single spades P6404 241 313,-2.63258399167775
+single spades P6404 241 352,-6.0376022545558
+single spades P6404 241 376,-6.46097031850422
+single spades P6404 241 416,2.54283097324843
+single spades P6404 241 484,-2.35022910645744
+single spades P6404 241 83,-3.89940115891997
+single spades P6404 242 106,-6.41881306407453
+single spades P6404 242 107,-4.21372716913891
+single spades P6404 242 119,-5.2146884459476
+single spades P6404 242 125,-4.94750045140591
+single spades P6404 242 130,-3.86390721605506
+single spades P6404 242 133,-4.69305194938968
+single spades P6404 242 135,-6.4347114195788
+single spades P6404 242 155,-7.64503065255789
+single spades P6404 242 166,-5.7886701089082
+single spades P6404 242 177,-5.86901903983536
+single spades P6404 242 185,-5.35409209536067
+single spades P6404 242 188,-2.78243199157733
+single spades P6404 242 194,-5.81990347899169
+single spades P6404 242 204,-6.85797310761053
+single spades P6404 242 210,-3.39280347491528
+single spades P6404 242 215,-10.150273773265
+single spades P6404 242 225,-3.97850873886217
+single spades P6404 242 226,-7.49983064891982
+single spades P6404 242 241,-7.00434375846017
+single spades P6404 242 245,-4.25745546092904
+single spades P6404 242 264,-3.34398015620324
+single spades P6404 242 269,-3.35195599573568
+single spades P6404 242 282,-4.65156237638969
+single spades P6404 242 293,-4.47312721990488
+single spades P6404 242 295,-8.07193526884036
+single spades P6404 242 298,-4.22857022170926
+single spades P6404 242 312,-4.3672471933375
+single spades P6404 242 323,-1.91561040123796
+single spades P6404 242 324,-3.79955770686155
+single spades P6404 242 43,-4.73807374081489
+single spades P6404 242 48,-5.27569985816979
+single spades P6404 242 4,1.83260387907826
+single spades P6404 242 61,-4.71194689034245
+single spades P6404 258 29,-4.58713302146828
+single spades P6404 258 31,-8.20788190192512
+single spades P6404 258 38,-4.80339018091526
+single spades P6404 258 52,-4.95431916650128
+single spades P6404 258 59,-5.18961742615308
+single spades P6404 275 131,-3.0890054060177
+single spades P6404 275 148,-5.4097218728121
+single spades P6404 275 186,-3.71897952398985
+single spades P6404 275 309,0.708724390842211
+single spades P6404 275 338,-8.94656530850013
+single spades P6404 275 343,-6.21774902451743
+single spades P6404 275 346,-5.96975540769233
+single spades P6404 276 11,-4.41205998872917
+single spades P6404 276 211,-16.0894017313777
+single spades P6404 276 267,-10.0902649195823
+single spades P6404 276 271,-5.13168211057133
+single spades P6404 292 11,-8.65778220435831
+single spades P6404 292 135,-3.10621362932532
+single spades P6404 292 170,-1.44420745771736
+single spades P6404 292 179,-3.3598976932718
+single spades P6404 292 202,-3.85279664257466
+single spades P6404 292 204,-4.42414683544104
+single spades P6404 292 210,-3.99636429079223
+single spades P6404 292 220,-2.24030796137008
+single spades P6404 292 221,-5.10820721728508
+single spades P6404 292 230,-4.91436249413302
+single spades P6404 292 231,-4.46551561939114
+single spades P6404 292 236,-4.4766741512728
+single spades P6404 292 247,-5.19581442852248
+single spades P6404 292 255,-2.45668449197535
+single spades P6404 292 257,-1.56539951164671
+single spades P6404 292 259,-4.31241285232777
+single spades P6404 292 260,-7.73513319602124
+single spades P6404 292 263,-2.82347521351743
+single spades P6404 292 266,-7.7529859525396
+single spades P6404 292 277,-7.95245706212763
+single spades P6404 292 297,-5.90244764078023
+single spades P6404 292 314,-5.26771761949177
+single spades P6404 292 319,-4.60139055190205
+single spades P6404 292 321,1.55777839588451
+single spades P6404 292 338,-4.2139503359256
+single spades P6404 292 33,-16.0894017313777
+single spades P6404 292 344,-6.93624326551517
+single spades P6404 292 388,-3.03387609790168
+single spades P6404 292 39,-2.23012015307857
+single spades P6404 292 437,-6.8145038480573
+single spades P6404 292 469,-4.32897953712899
+single spades P6404 292 492,-5.40683719995048
+single spades P6404 292 541,-5.98545963095379
+single spades P6404 292 555,-9.18618670326166
+single spades P6404 292 560,-4.06271955742969
+single spades P6404 293 131,-4.70959374496908
+single spades P6404 293 133,-1.95353264585354
+single spades P6404 293 169,-8.38014978198702
+single spades P6404 293 170,-5.76626466279576
+single spades P6404 293 173,-3.67066795491526
+single spades P6404 293 179,-5.59012705396192
+single spades P6404 293 187,-6.76029570770449
+single spades P6404 293 196,-4.54341959082155
+single spades P6404 293 199,-6.94786889222283
+single spades P6404 293 201,-3.38810477503546
+single spades P6404 293 203,-2.49118608411217
+single spades P6404 293 204,-3.71764499176072
+single spades P6404 293 211,-2.32552792291544
+single spades P6404 293 214,-2.23806558135625
+single spades P6404 293 225,-3.80040271683422
+single spades P6404 293 232,-4.97283908214479
+single spades P6404 293 258,-7.24275151954439
+single spades P6404 293 312,-0.745106535986445
+single spades P6404 293 362,-4.20774005480342
+single spades P6404 293 364,-5.02695012978786
+single spades P6404 293 72,0.979481876930259
+single spades P6404 293 89,-4.28424771822203
+single spades P6404 293 93,-9.03983295150651
+single spades Sample 900 01 21,-12.1094277810371
+single spades Sample 900 01 27,-6.6322014785684
+single spades Sample 900 01 36,-5.25795642793491
+single spades Sample 900 01 64,-6.63296590686998
+single spades Sample 900 01 8,-4.39651857821149
+single spades Sample 909 08 10,-5.17206193603526
+single spades Sample 909 08 151,-3.36002897783493
+single spades Sample 909 08 190,-2.47748429546392
+single spades Sample 909 08 241,-4.52872503493195
+single spades Sample 909 08 257,-5.27742342740758
+single spades Sample 909 08 263,4.54018795187299
+single spades Sample 909 08 264,-5.84325000376968
+single spades Sample 909 08 269,-4.46687102215571
+single spades Sample 909 08 271,-9.58717832704795
+single spades Sample 909 08 272,-2.93575523633498
+single spades Sample 909 08 305,-5.82204029983925
+single spades Sample 909 08 38,-4.77921089359384
+single spades Sample 909 08 402,-3.47006807915569
+single spades Sample 909 08 403,-7.52252663188368
+single spades Sample 909 08 410,-5.04877380933093
+single spades Sample 909 08 426,-8.02060780310179
+single spades Sample 909 08 432,-7.90840762084166
+single spades Sample 909 08 465,-6.59557025920384
+single spades Sample 909 08 488,-8.4548574932889
+single spades Sample 909 08 506,-9.16821538627581
+single spades Sample 909 08 515,-8.76274385725572
+single spades Sample 909 08 544,-1.92417432734731
+single spades Sample 909 08 569,-6.971727445967
+single spades Sample 909 08 71,-4.78579672336979
+single spades Sample 909 08 79,-5.3597503846501
+single spades Sample 909 08 85,-2.35289387262629
+single spades Sample 910 08 106,-8.49866402087832
+single spades Sample 910 08 120,-3.5517981264668
+single spades Sample 910 08 132,-0.0879880368755155
+single spades Sample 910 08 145,-6.92732934345027
+single spades Sample 910 08 148,-4.77566111522674
+single spades Sample 910 08 162,-5.17143212080951
+single spades Sample 910 08 163,0.71964020082065
+single spades Sample 910 08 201,-5.7564422209516
+single spades Sample 910 08 241,-5.31758116104098
+single spades Sample 910 08 69,-2.48492922376959
+single spades Sample 914 30 125,-6.45654576774993
+single spades Sample 914 30 31,-10.8259878221333
+single spades Station 15 156,3.42674262204903
+single spades Station 15 157,-3.21867303573036
+single spades Station 15 207,-8.22557442376891
+single spades Station 15 46,-6.05098242101466
+single spades Station 15 70,-0.357290981293002
+single spades Station 15 77,-3.41586378755748
+single spades Station 19 111,-3.25292850867432
+single spades Station 19 115,-6.8605374513884
+single spades Station 19 11,-3.17533577508378
+single spades Station 19 140,-3.62773645381386
+single spades Station 19 144,-2.71685606310667
+single spades Station 19 149,-7.02895601614205
+single spades Station 19 151,-4.62514856376993
+single spades Station 19 152,-7.56132978625427
+single spades Station 19 160,-3.71717774504298
+single spades Station 19 162,-8.14374937688679
+single spades Station 19 168,-4.59997186133585
+single spades Station 19 187,-6.90990043507115
+single spades Station 19 190,-5.55609395559283
+single spades Station 19 197,-7.51364435937252
+single spades Station 19 199,-5.12258876962101
+single spades Station 19 206,-6.79799849339459
+single spades Station 19 210,-5.49820196210538
+single spades Station 19 213,0.796108553815432
+single spades Station 19 222,-3.27411159864074
+single spades Station 19 226,-2.19672634290578
+single spades Station 19 231,-5.72160605532195
+single spades Station 19 236,-3.21835052850138
+single spades Station 19 293,-4.29257955595693
+single spades Station 19 312,-1.87806534217492
+single spades Station 19 346,-2.27404236163342
+single spades Station 19 383,-3.62064361763413
+single spades Station 19 396,-3.54006452354428
+single spades Station 19 39,-2.45112498585374
+single spades Station 19 408,-2.43511781192764
+single spades Station 19 68,-5.65100310408678
+single spades Station 19 95,-2.52994417101437

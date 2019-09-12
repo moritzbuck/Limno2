@@ -1,0 +1,60 @@
+
+Hej,
+
+So OK, I think it is all coming into shape. This a bit long, for the lazy ones, please jump to the end ...
+
+For the detail of the sampling, shortly what it looks like right now, is is basically split in two sampling sets:
+
+    Tuesday along the day we will sample all 20 mesocosms for the data that does not change (too much) over time (e.g. DNA, nutrients, DOC,...)
+    From Monday to Wednesday we will sample 6 mesocosms for 48h  for RNA, YSI-measurements, dissolved gas, and bacterial production. We will sample every four hours. We will split in two teams ~5 people, one sampling the other one "resting", I will make a detailed schedule shortly...  1 person filtering, two using the YSI, one on the gas and one on bacterial production.
+
+For the full sampling of the 20 mesocosms we will sample:
+
+    DNA, two step filtration 3 micron followed by 0.2 micro, filtrate kept for viral 'omics (20 x 2 x screwcaps, 20 + 20 filter)
+    TP/TN (Erken), DOC + one DOC for freezer (this is the usual weekly monitoring, which we will take off Charlotte, all tubes are ready)
+    microbial counts (20 x screwcaps)
+    sulfate, nitrate, ammonium, phosphate, TOC (these I took from Sari's Jämntland protocol, maybe all is a bit overkill, but I will prepare the falcons anyhow) (20x 15mL falcon, 20x 3 50mL falcon)
+    bacterial production (20x (3+1) screwcaps)
+    CO2, CH4 (gaetan)
+    ...
+
+For the 48h sampling we will primarily measure 6 mesocosm (presumable, Bx,Bf, Ex, Ef, Hx, Hf, where the letter from A-J are nutrient level with A smallest, and x = no-fish, and f = fish) a total of 12 times, e.g. 72 samples:
+
+    4 filters for RNA (72 x 4 x screwcaps + 72x 0.2 filters
+    CO2/CH4 (gaetan)
+    bacterial production (72x (3+1) screwcaps)
+    cell-counts (72x 2mL epi/screwcaps)
+
+Probably a bit less actually as when the 20 are sampled we will not need to do our select 6. Also a number of measurement are not mentioned her as they will be less regular or other are taking care (e.g. primary production, additional DNA filters, etc.).
+
+This brings us roughly to a total of  for bulk stuff:
+
+    72 x 4 + 20 x 0.2 filters : 308 (I have 5 boxes of hundred...)
+    20x 3 micron filter (got)
+    [72x4 + (72 + 20) x (3+1) + (72+20)] x 2mL screwcaps : 748 (I found around 350, I can borrow a bag of 500 from Javi upstairs ... )
+    20x 15mL falcons (easy)
+    60x 50mL falcons (easy)
+
+I will print all the needed labels tomorrow, as well as buy baggies, so let me know if anything seams absurd. Also I will test the filtration setup.
+
+Other additional things to remember:
+
+    Nitrogen tanks
+    extra tubes and syringes
+    gloves
+    prepare a good amount of alcohol (for cleaning)
+    prepare some good alcohol (for relaxation)
+    make some tables to fill out stuff
+    make sure we have the YSI ready
+    tube racks
+    a bunch of timers
+    bunch of iceboxes
+    flash light
+    plankton sieve (garage)
+    finish checklist, and protocol (including storage locations)
+    6 small bottles for BP
+    
+make a food shopping list                       
+
+
+Moritz
